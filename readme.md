@@ -1,1 +1,6 @@
-day 1 (7/30/2023): 15min
+# Sing-Up-Form
+
+## Time Log
+
+- day 1 (7/30/2023): 15min
+- day 2 (8/18/2023): 40 min

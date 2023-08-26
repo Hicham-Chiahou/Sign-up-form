@@ -28,21 +28,27 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+/* .......................... */
 body {
 	line-height: 1;
     background-color: rgb(108, 247, 95);
 }
+
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -50,14 +56,23 @@ table {
 
 .card-container{
     background-color: rgb(49, 78, 238);
-    width: 50%;
+    width: fit-content;
     
 
 }
+
 img{
     height: 99vh;
     width: auto;
     position: relative;
+	right: 0;
     
 
 }
+
+.form-container{
+	position: absolute;
+	left: 35%;
+	bottom: 50%;
+}
+
