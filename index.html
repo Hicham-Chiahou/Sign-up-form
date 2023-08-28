@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +12,19 @@
 </head>
 
 <body>
-    <!-- <div class="logo-container"> -->
-    <img class="img-container" src="./images/tier.jpg" alt="">
+    <div class="logo-container">
+        <div class="logo-div">
+.
 
-    <!-- </div> -->
+        </div>
+        <img id="logo-img" src="images/logo.png" alt="">
+        
+        <img class="img-container" src="./images/tier.jpg" alt="">
+
+    </div>
+
+
+
     <di class="form-container">
 
         <div class="form-text">
@@ -26,20 +38,22 @@
 
 
         <div class="form-div">
-            <form>
-                <label>First name</label>
-                <input placeholder="first name">
-                <label>First</label>
+            <div class="form">
+                <form>
+                    <label>First Name</label>
+                    <input placeholder="first name">
+                    <label>Last Name</label>
 
-                <input placeholder="Last name">
-                </br>
-                <label>First name</label>
+                    <input placeholder="Last name">
+                    </br>
+                    <label>Password</label>
 
-                <input placeholder="password ">
-                <label>First name</label>
+                    <input placeholder="password ">
+                    <label>Confirm Password</label>
 
-                <input placeholder="confirm password">
-            </form>
+                    <input placeholder="confirm password">
+                </form>
+            </div>
 
             <button>Sign Up</button>
             <p class="sign-in">Already have an account? sign in</p>

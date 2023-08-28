@@ -108,8 +108,10 @@ section {
 
 /* .......................... */
 body {
+  font-family: 'Lato', sans-serif;
+
   line-height: 1;
-  background-color: rgb(108, 247, 95);
+  background-color: rgb(255, 255, 255);
   /* text-align: center; */
 }
 
@@ -135,14 +137,12 @@ table {
   border-spacing: 0;
 }
 
-h2
-{
-	font-size: 2rem;
+h2 {
+  font-size: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
 }
-.logo-container {
-  background-color: rgb(49, 78, 238);
-  width: fit-content;
-}
+
 
 img {
   height: 100vh;
@@ -155,7 +155,7 @@ img {
   /* text-align: left; */
 }
 
-.form-container > .form-div > button	 {
+.form-container > .form-div > button {
   position: relative;
   width: 170px;
   height: 30px;
@@ -163,14 +163,54 @@ img {
 }
 
 .form-text {
-	position: relative;
-	bottom: 50px;
+  position: relative;
+  bottom: 50px;
+  font-weight: 400px;
 }
-input
-{
-	margin: 10px;
+
+.form-text > h2{
+  padding-bottom: 40px;
 }
-.sign-in{
-	position: relative;
-	top: 100px;
+
+input {
+  margin: 10px;
+}
+.sign-in {
+  position: relative;
+  top: 100px;
+  font-weight: 300;
+}
+
+.form {
+  background-color: rgb(80, 8, 146);
+  width: 100vh;
+  padding: 20px;
+}
+
+/* --------------log div------------- */
+.logo-container{
+  width: 30%;
+  background-color: red;
+}
+.logo-div{
+  background-color: rgb(80, 8, 146);
+  text-align: center;
+  /* width:  31.85%; */
+  width:  30%;
+  height: 25%;
+  position: absolute;
+  top: 100px;
+  opacity: 0.9;
+}
+#logo-img{
+  height: 250px;
+  position: absolute;
+  width: 250px;
+  top: 50px;
+  left: 100px;
+  
+}
+
+.img-container{
+  width: 100%;
 }
