@@ -156,21 +156,55 @@ p{
   padding: 20px;
 }
 .form-container{
-  background-color: greenyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
   flex: 2;
 }
 form{
-  background-color: blueviolet;
+  background-color: rgb(212, 212, 212);
   padding: 20px;
 }
-.form-name-input{
+form > p{
+  padding: 0px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.form-input{
   display: flex;
 }
 
-.form-password-input{
-  display: flex;
+.form-input > div > input {
+  width: 90%;
+  height: 25px;
+  /* border-radius: 5px; */
+  
 }
+.form-input > div > label {
+  margin-bottom: 50px;
+}
+
+.form-input > div  {
+  width: 100%;
+  height: 50px;
+  
+}
+
+
+
 img{
   width: auto;
   height: 100vh;
+}
+
+form > button{
+  border: none; 
+  background-color: #596D48;
+  border-radius: 5px;
+  width: 200px;
+  height: 30px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
 }
